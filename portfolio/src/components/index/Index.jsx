@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link, withRouter } from 'react-router-dom'
 import logoEoc from '../../assets/logoEoc.png'
 import izq1 from '../../assets/izq1.png'
 import izq2 from '../../assets/izq2.png'
@@ -22,15 +23,11 @@ function Index () {
                 <img className="dcha2" alt="cempasuchil6" src={dcha2}/>
                 <img className="dcha1" alt="cempasuchil7" src={dcha1}/>
             </div>
-            {/* <Aboutme>
-                </Aboutme>
-                <Projects>
-                </Projects>
-                <Skills>
-                </Skills>
-             */}
+            <Link to="/SobreMi">Sobre mí</Link>
+            <Link to="/Skills">Skills</Link>
+            <Link to="/Projects">Proyectos</Link>
         </div>
     )
 }
 
-export default Index;
+export default withRouter(Index);
