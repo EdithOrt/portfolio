@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link, withRouter } from 'react-router-dom'
 import logoEoc from '../../assets/logoEoc.png'
 import izq1 from '../../assets/izq1.png'
 import izq2 from '../../assets/izq2.png'
@@ -10,9 +9,10 @@ import dcha2 from '../../assets/dcha2.png'
 import dcha1 from '../../assets/dcha1.png'
 import './index.css'
 
-function Index () {
+function Index ({setAboutMe, setSkills, setBurgerQueen}) {
     return (
         <div className="indexContent">
+
             <img className="logo" alt="logo" src={logoEoc}/>
             <div className="flowersContent">
                 <img className="izq1" alt="cempasuchil1" src={izq1}/>
@@ -23,11 +23,17 @@ function Index () {
                 <img className="dcha2" alt="cempasuchil6" src={dcha2}/>
                 <img className="dcha1" alt="cempasuchil7" src={dcha1}/>
             </div>
-            <Link to="/SobreMi">Sobre mí</Link>
-            <Link to="/Skills">Skills</Link>
-            <Link to="/Projects">Proyectos</Link>
+            <button onClick={() => setAboutMe(true)}>
+                Sobre mí
+            </button>
+            <button onClick={() => setSkills(true)}>
+                Skills
+            </button>
+            <button onClick={() => setBurgerQueen(true)}>
+                Proyectos
+            </button>
         </div>
     )
 }
 
-export default withRouter(Index);
+export default Index;

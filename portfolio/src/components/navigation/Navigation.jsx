@@ -1,17 +1,19 @@
 import React from 'react';
-import {withRouter, Link} from 'react-router-dom'
 import './navigation.css'
+import Github from '../../assets/GIT1.png'
+import Linkedin from '../../assets/linkedin1.png'
 
-function Navigation (){
+
+function Navigation ({setContact}){
     return (
         <div className="contentNav">
-            <button>Linkedin</button>
-            <button>Github</button>
-            <Link to="/Contact">
+            <button><img src={Github}/></button>
+            <button><img src={Linkedin}/></button>
+            <button onClick={() => setContact(true)}>
                 Contáctame
-            </Link>
+            </button>
         </div>
     )
 }
 
-export default withRouter(Navigation);
+export default Navigation;

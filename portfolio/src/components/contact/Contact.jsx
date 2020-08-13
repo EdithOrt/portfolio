@@ -1,10 +1,13 @@
 import React from 'react';
 import './contact.css'
 
-function Contact (){
+function Contact ({setContact, setComeBack}){
     return(
         <div className="containerContact">
-            <button> Regresar </button>
+            <button onClick={() => {
+                setComeBack(true)
+                setContact(false)
+            }}> Regresar </button>
             <p>contacto</p>
         </div>
     )

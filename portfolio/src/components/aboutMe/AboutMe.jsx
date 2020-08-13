@@ -5,11 +5,14 @@ import developer from '../../assets/developer.png';
 import EdithOrtizCV from '../../assets/EDITH-ORTIZ-CV.pdf'
 import './aboutme.css'
 
-function AboutMe () {
+function AboutMe ({setComeBack, setAboutMe}) {
     return (
         <div  className="aboutMeContent">
             <div className="textContent">
-                <button className="comeBackButton"></button>
+                <button className="comeBackButton" onClick={()=> {
+                    setComeBack(true)
+                    setAboutMe(false)
+                }}></button>
                 <div className="textPresentation">
                     <div className="name">EDITH</div>
                     <div className="lastName">ORTIZ</div>
