@@ -14,83 +14,117 @@
 .logo {
   position: absolute;
   z-index: 1;
+  -webkit-animation: heartbeat 1.5s ease-in-out infinite both;
+  animation: heartbeat 1.5s ease-in-out infinite both;
 }
 
-.izq1 {
+@-webkit-keyframes heartbeat {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  10% {
+    -webkit-transform: scale(0.91);
+            transform: scale(0.91);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  17% {
+    -webkit-transform: scale(0.98);
+            transform: scale(0.98);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  33% {
+    -webkit-transform: scale(0.87);
+            transform: scale(0.87);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  45% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+}
+@keyframes heartbeat {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  10% {
+    -webkit-transform: scale(0.91);
+            transform: scale(0.91);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  17% {
+    -webkit-transform: scale(0.98);
+            transform: scale(0.98);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  33% {
+    -webkit-transform: scale(0.87);
+            transform: scale(0.87);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  45% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+}
+
+.container-buttons {
+  width: 900px;
+  height: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   position: absolute;
-  z-index: 2;
-  width: 170px;
-  margin-top: 210px;
-  margin-left: 90px;
+  z-index: 6;
 }
 
-.flowersContent:hover > img {
-  -webkit-transform: translate(0px, 200px);
-          transform: translate(0px, 200px);
+.skills-button, .projects-button, .aboutme-button {
+  background-color: transparent;
+  border-radius: 50px;
+  width: 190px;
+  height: 40px;
+  color: white;
+  border-width: thin;
+  border-color: white;
+  font-size: .90em;
+  letter-spacing: 1px;
+  font-weight: 800;
 }
 
-.izq1:hover {
-  -webkit-transform: translate(200px, 0px);
-          transform: translate(200px, 0px);
+.skills-button:hover, .projects-button:hover, .aboutme-button:hover {
+  background-color: white;
+  border: none;
+  color: black;
 }
 
-.izq2 {
-  position: absolute;
-  z-index: 3;
-  width: 170px;
-  margin-top: 350px;
-  margin-left: 100px;
+.skills-button {
+  margin-top: 250px;
 }
 
-.izq3 {
-  position: absolute;
-  z-index: 4;
-  width: 170px;
-  margin-top: 280px;
-  margin-left: 180px;
+.aboutme-button {
+  margin-right: 170px;
+  margin-left: 170px;
 }
 
-.izqAbajo {
-  position: absolute;
-  z-index: 5;
-  width: 125px;
-  margin-top: 370px;
-  margin-left: 220px;
+.projects-button {
+  margin-top: 250px;
 }
-
-.dchaAbajo {
-  position: absolute;
-  z-index: 3;
-  width: 170px;
-  margin-top: 300px;
-  margin-left: 300px;
-}
-
-.dcha2 {
-  position: absolute;
-  z-index: 1;
-  width: 170px;
-  margin-top: 310px;
-  margin-left: 420px;
-}
-
-.dcha1 {
-  position: absolute;
-  z-index: 2;
-  width: 155px;
-  margin-top: 210px;
-  margin-left: 410px;
-}
-
-.flowersContent {
-  width: 700px;
-  height: 550px;
-  margin-top: 0px;
-}
-
-.flowersContent img {
-  display: block;
-  -webkit-transform: translate(0px);
-          transform: translate(0px);
-}
-/*# sourceMappingURL=index.css.map */

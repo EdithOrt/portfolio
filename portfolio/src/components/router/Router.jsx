@@ -22,7 +22,7 @@ function Router (){
     return (
         <div>
             <div>
-                {(navigateState && !contact && !aboutMe && !skillState && !burgerQueen)  && 
+                {(navigateState && !contact && !aboutMe && !skillState && !burgerQueen && !redSocial && !dataLovers)  && 
                     <Navigation
                         setContact = {setContact}
                     />
@@ -35,7 +35,7 @@ function Router (){
                 }
             </div>
             <div>
-                {(indexState && !aboutMe && !skillState && !burgerQueen) && 
+                {(indexState && !aboutMe && !skillState && !burgerQueen && !contact && !redSocial && !dataLovers) && 
                     <Index
                         setAboutMe = {setAboutMe}
                         setSkills = {setSkills}
@@ -56,6 +56,20 @@ function Router (){
                 <BurgerQueen
                 setComeBack = {setComeBack}
                 setBurgerQueen = {setBurgerQueen}
+                setRedSocial = {setRedSocial}
+                />}
+                {redSocial &&
+                <SocialRed
+                setComeBack = {setComeBack}
+                setRedSocial = {setRedSocial}
+                setDataLovers = {setDataLovers}
+                setBurgerQueen = {setBurgerQueen}
+                />}
+                {dataLovers &&
+                <DataLovers
+                setComeBack = {setComeBack}
+                setRedSocial = {setRedSocial}
+                setDataLovers = {setDataLovers}
                 />}
             </div>
             <div>

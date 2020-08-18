@@ -3,7 +3,7 @@ import './contact.css'
 
 function Contact ({setContact, setComeBack}){
     return(
-        <div className="containerContact">
+        <div className="container-contact">
             <button onClick={() => {
                 setComeBack(true)
                 setContact(false)

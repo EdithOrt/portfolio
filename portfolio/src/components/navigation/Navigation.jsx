@@ -6,11 +6,11 @@ import Linkedin from '../../assets/linkedin1.png'
 
 function Navigation ({setContact}){
     return (
-        <div className="contentNav">
-            <button><img src={Github}/></button>
-            <button><img src={Linkedin}/></button>
-            <button onClick={() => setContact(true)}>
-                Contáctame
+        <div className="content-nav">
+            <button className="github-button"><img src={Github}/></button>
+            <button className="linkedin-button"><img src={Linkedin}/></button>
+            <button className="contact-button" onClick={() => setContact(true)}>
+                CONTÁCTAME
             </button>
         </div>
     )
