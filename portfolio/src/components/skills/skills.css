@@ -5,25 +5,41 @@
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .textContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   font-size: 4em;
   margin-top: 15px;
   font-weight: 900;
-  width: 600px;
+  width: 500px;
+  height: 450px;
 }
 
 .skills {
-  margin: 10px;
+  margin-top: -30px;
+  margin-left: 50px;
 }
 
 .softSkills {
-  margin: 10px;
+  margin-top: 80px;
+  margin-left: 50px;
 }
 
 .buttonsContainer {
-  width: 700px;
+  margin-top: 70px;
+  margin-right: 25px;
+  width: 600px;
+  height: 500px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -32,7 +48,7 @@
 }
 
 .buttonsContainer img {
-  height: 163px;
+  height: 170px;
 }
 
 .buttonsContainer button {
@@ -49,5 +65,16 @@
   border-color: white;
   color: white;
   background-color: transparent;
+}
+
+.container-logos {
+  width: 600px;
+  height: 170px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 /*# sourceMappingURL=skills.css.map */

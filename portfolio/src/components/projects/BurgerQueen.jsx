@@ -1,6 +1,6 @@
 import React from 'react'
 import './burgerqueen.css'
-import redsocialImg from '../../assets/redsocial-img.png'
+import burgerqueen from '../../assets/mockup-burgerqueen.png'
 
 function BurgerQueen ({setComeBack, setBurgerQueen, setRedSocial}){
     return(
@@ -12,7 +12,7 @@ function BurgerQueen ({setComeBack, setBurgerQueen, setRedSocial}){
                         setBurgerQueen(false)
                     }}></button>
                 </div>
-                <img src={redsocialImg} alt="img"/>
+                <img className="img-app" src={burgerqueen} alt="img"/>
             </div>
             <div className="container-right">
                 <div className="container-right-second">

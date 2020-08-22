@@ -1,6 +1,6 @@
 import React from 'react'
 import './socialred.css'
-import redsocialImg from '../../assets/redsocial-img.png'
+import secretlove from '../../assets/mockup-secret-love.png'
 
 function SocialRed ({setRedSocial, setDataLovers, setBurgerQueen, setComeBack}){
     return(
@@ -12,21 +12,21 @@ function SocialRed ({setRedSocial, setDataLovers, setBurgerQueen, setComeBack}){
                         setRedSocial(false)
                     }}></button>
                 </div>
-                <img src={redsocialImg} alt="img"/>
+                <img className="secret-love-img" src={secretlove} alt="img"/>
             </div>
             <div className="container-right">
                 <div className="container-right-second">
                     <div className="container-description">
                         <div className="content-title">
-                            <h2 className="title1">LIFE</h2>
-                            <h2 className="title2">STYLE</h2>
+                            <h2 className="title1">LOVE</h2>
+                            <h2 className="title2">SECRET</h2>
                         </div>
                         <div className="paragraph-description">
                             <p>
-                                Lifestyle es una red social dirigida a personas de 25-35 años 
-                                principalmente que tienen una vida sana, activa y/o desean tenerla. 
-                                Su propósito es que las personas ya sean expertas o principiantes 
-                                puedan compartir contenido  sobre temas saludables sin costo alguno.
+                            Es una WebApp gratuita adaptada para la festividad de San Valentín. 
+                            Codifica mensajes para las personas que quieran puedan mantenerlo 
+                            en secreto y así mismo compartirlo con alguien especial. secret
+                            Love esta enfocada para adolescentes de 14 a 25 años.
                             </p> 
                         </div>  
                     </div> 

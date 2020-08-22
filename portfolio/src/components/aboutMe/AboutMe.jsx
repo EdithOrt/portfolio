@@ -1,5 +1,5 @@
 import React from 'react';
-import Edith1 from '../../assets/EDITH1.png';
+import Edith from '../../assets/edith.png';
 import frontend from '../../assets/frontend.png';
 import developer from '../../assets/developer.png';
 import EdithOrtizCV from '../../assets/EDITH-ORTIZ-CV.pdf'
@@ -9,10 +9,12 @@ function AboutMe ({setComeBack, setAboutMe}) {
     return (
         <div  className="aboutMeContent">
             <div className="textContent">
-                <button className="comeBackButton" onClick={()=> {
-                    setComeBack(true)
-                    setAboutMe(false)
-                }}></button>
+                <div className="container-button-comeback">
+                    <button className="comeBackButton" onClick={()=> {
+                        setComeBack(true)
+                        setAboutMe(false)
+                    }}></button>
+                </div>
                 <div className="textPresentation">
                     <div className="name">EDITH</div>
                     <div className="lastName">ORTIZ</div>
@@ -24,18 +26,20 @@ function AboutMe ({setComeBack, setAboutMe}) {
                     Buscando siempre la mejora personal 
                     y el autoaprendizaje constante.
                     </p>
-                    <form method="get" action={EdithOrtizCV}>
-                    <button
-                    type="submit"
-                    className="buttonCV" 
-                    >
-                    DESCARGA MI CV
-                    </button>
-                    </form>
+                    <div className="container-form">
+                        <form method="get" action={EdithOrtizCV}>
+                        <button
+                        type="submit"
+                        className="buttonCV" 
+                        >
+                        DESCARGA MI CV
+                        </button>
+                        </form>
+                    </div>
                 </div>
             </div>
             <div className="photographyContent">
-                <img src={Edith1}/>
+                <img src={Edith}/>
             </div>
         </div>
     )

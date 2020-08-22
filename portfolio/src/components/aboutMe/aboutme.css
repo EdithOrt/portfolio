@@ -5,12 +5,14 @@
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .textContent {
-  width: 850px;
+  width: 700px;
   margin: 10px;
-  margin-right: 99px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -41,21 +43,26 @@
   font-weight: 900;
 }
 
-.lastName {
-  margin-left: 240px;
-}
-
 .name {
-  margin-left: 190px;
+  margin-left: 70px;
 }
 
-.photographyContent {
-  width: 200px;
-  margin-left: 141px;
+.lastName {
+  margin-left: 120px;
 }
 
 .photographyContent img {
-  height: 600px;
+  height: 99.4vh;
+}
+
+.container-form {
+  width: 550px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
 .buttonCV {
@@ -66,11 +73,10 @@
   border-color: white;
   color: white;
   font-weight: 800;
-  font-size: .90em;
+  font-size: .20em;
   font-family: 'Archivo Narrow', sans-serif;
   border-width: thin;
   letter-spacing: 1px;
-  margin-left: 565px;
   margin-top: 35px;
 }
 
@@ -82,13 +88,13 @@
 
 .frontend {
   width: 219px;
-  margin-left: 195px;
+  margin-left: 75px;
 }
 
 .developer {
   width: 223px;
   margin-top: 10px;
-  margin-left: 250px;
+  margin-left: 100px;
 }
 
 .comeBackButton {
@@ -103,7 +109,7 @@
 
 .description {
   width: 500px;
-  margin-left: 250px;
+  margin-left: 70px;
   text-align: justify;
   font-size: 1.1em;
   line-height: 1.5;
