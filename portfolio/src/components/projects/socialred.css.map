@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,oBAAoB,CAAC;EACjB,MAAM,EAAE,KAAK;CAAG;;AAEpB,AAAA,gBAAgB,CAAC;EACb,KAAK,EAAE,CAAC;EACR,MAAM,EAAE,CAAC;EACT,YAAY,EAAE,kBAAkB;EAChC,UAAU,EAAE,sBAAsB;EAClC,aAAa,EAAE,sBAAsB;EACrC,gBAAgB,EAAE,WAAW;EAC7B,WAAW,EAAE,IAAI;EACjB,YAAY,EAAE,IAAI;CAAG;;AAEzB,AAAA,gBAAgB,CAAC;EACb,KAAK,EAAE,KAAK;CAAG",
+    "sources": [
+        "socialred.sass"
+    ],
+    "names": [],
+    "file": "socialred.css"
+}

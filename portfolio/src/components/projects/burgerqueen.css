@@ -1,0 +1,132 @@
+.container-bq {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.next-button {
+  width: 0;
+  height: 0;
+  border-left: 15px solid #ffffff;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  background-color: transparent;
+  border-right: none;
+  margin-left: 40px;
+}
+
+.container-mockup {
+  width: 700px;
+}
+
+.img-app {
+  margin-top: -70px;
+  height: 380px;
+}
+
+.container-button-comeback {
+  height: 100px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.container-right {
+  width: 400px;
+  margin-right: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.container-right-second {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container-right h2 {
+  font-size: 4em;
+  font-weight: 900;
+}
+
+.content-title {
+  margin-top: -30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  height: 200px;
+}
+
+.title1 {
+  margin-bottom: -10px;
+  margin-right: 25px;
+}
+
+.title2 {
+  margin-top: -10px;
+}
+
+.container-description {
+  height: 400px;
+}
+
+.paragraph-description {
+  margin-top: 50px;
+  font-size: 1.1em;
+  text-align: justify;
+  letter-spacing: .5px;
+  line-height: 28px;
+}
+
+.button-showdemo {
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.container-button-bq {
+  margin-top: 20px;
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.demo-button {
+  font-weight: 800;
+  color: white;
+  font-size: .90em;
+  font-family: 'Archivo Narrow', sans-serif;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+
+.demo-button:hover {
+  color: black;
+}
+/*# sourceMappingURL=burgerqueen.css.map */
