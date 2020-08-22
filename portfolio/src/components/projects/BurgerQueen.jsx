@@ -30,7 +30,9 @@ function BurgerQueen ({setComeBack, setBurgerQueen, setRedSocial}){
                         </div>  
                     </div> 
                     <div className="button-showdemo">
-                        <button className="contact-button">VER DEMO</button>
+                        <button className="contact-button">
+                            <a className="demo-button" href="https://EdithOrt.github.io/CDMX009-BurgerQueen" target="_blank">VER DEMO</a>
+                        </button>
                     </div>        
                     <div className="container-button-bq">
                     <button className="next-button" onClick={() => {

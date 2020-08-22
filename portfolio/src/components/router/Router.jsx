@@ -4,7 +4,6 @@ import Index from '../index/Index';
 import AboutMe from '../aboutMe/AboutMe';
 import SocialRed from '../projects/SocialRed';
 import BurgerQueen from '../projects/BurgerQueen';
-import DataLovers from '../projects/DataLovers';
 import Skills from '../skills/Skills';
 import Navigation from '../navigation/Navigation';
 
@@ -17,12 +16,11 @@ function Router (){
     const [comeBack, setComeBack] = useState(false);
     const [burgerQueen, setBurgerQueen] = useState(false);
     const [redSocial, setRedSocial] = useState(false);
-    const [dataLovers, setDataLovers] = useState(false);
 
     return (
         <div>
             <div>
-                {(navigateState && !contact && !aboutMe && !skillState && !burgerQueen && !redSocial && !dataLovers)  && 
+                {(navigateState && !contact && !aboutMe && !skillState && !burgerQueen && !redSocial)  && 
                     <Navigation
                         setContact = {setContact}
                     />
@@ -35,7 +33,7 @@ function Router (){
                 }
             </div>
             <div>
-                {(indexState && !aboutMe && !skillState && !burgerQueen && !contact && !redSocial && !dataLovers) && 
+                {(indexState && !aboutMe && !skillState && !burgerQueen && !contact && !redSocial) && 
                     <Index
                         setAboutMe = {setAboutMe}
                         setSkills = {setSkills}
@@ -62,14 +60,7 @@ function Router (){
                 <SocialRed
                 setComeBack = {setComeBack}
                 setRedSocial = {setRedSocial}
-                setDataLovers = {setDataLovers}
                 setBurgerQueen = {setBurgerQueen}
-                />}
-                {dataLovers &&
-                <DataLovers
-                setComeBack = {setComeBack}
-                setRedSocial = {setRedSocial}
-                setDataLovers = {setDataLovers}
                 />}
             </div>
             <div>

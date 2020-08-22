@@ -2,7 +2,7 @@ import React from 'react'
 import './socialred.css'
 import secretlove from '../../assets/mockup-secret-love.png'
 
-function SocialRed ({setRedSocial, setDataLovers, setBurgerQueen, setComeBack}){
+function SocialRed ({setRedSocial, setBurgerQueen, setComeBack}){
     return(
         <div className="container-bq">
             <div className="container-mockup">
@@ -31,17 +31,19 @@ function SocialRed ({setRedSocial, setDataLovers, setBurgerQueen, setComeBack}){
                         </div>  
                     </div> 
                     <div className="button-showdemo">
-                        <button className="contact-button">VER DEMO</button>
+                        <button className="contact-button">
+                            <a className="demo-button" href="https://secret-love-8qevk4r8u.vercel.app/" target="_blank">VER DEMO</a>
+                        </button>
                     </div>        
                     <div className="container-button-bq">
                         <button className="previous-button" onClick={() => {
                             setRedSocial(false)
                             setBurgerQueen(true)
                         }}></button>
-                        <button className="next-button" onClick={() => {
+                        {/* <button className="next-button" onClick={() => {
                             setRedSocial(false)
                             setDataLovers(true)
-                        }}></button>
+                        }}></button> */}
                     </div> 
                 </div>   
             </div>
