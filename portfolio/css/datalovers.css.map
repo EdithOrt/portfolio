@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AAAA,AAAA,qBAAqB,AAAC,CAClB,MAAM,CAAE,KAAK,CAAG",
+    "mappings": "AAAA,AAAA,qBAAqB,AAAC,CAClB,MAAM,CAAE,KAAK,CAAG,AAEpB,AAAA,yBAAyB,AAAC,CACtB,UAAU,CAAE,KAAK,CACjB,OAAO,CAAE,IAAI,CACb,eAAe,CAAE,QAAQ,CACzB,SAAS,CAAE,IAAI,CACf,MAAM,CAAE,KAAK,CAAG,AAEpB,AAAA,kBAAkB,AAAC,CACf,aAAa,CAAE,KAAK,CACpB,YAAY,CAAE,IAAI,CAAG",
     "sources": [
         "../src/components/projects/datalovers.sass"
     ],

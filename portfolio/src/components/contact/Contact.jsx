@@ -1,17 +1,23 @@
 import React from 'react';
 import './contact.css'
+import Github from '../../assets/GIT1.png'
+import Linkedin from '../../assets/linkedin1.png'
 
 function Contact ({setContact, setComeBack}){
     return(
         <div className="container-principal-contact">
             <div className="container-contact-left">
-                <button onClick={() => {
-                    setComeBack(true)
-                    setContact(false)
-                }}> Regresar </button>
+                <div className="container-button-comeback">
+                    <button className="comeback-button" onClick={() => {
+                        setComeBack(true)
+                        setContact(false)
+                    }}></button>
+                </div>
+                <div className="title-contact">
+                    <h2>¿LISTO(A) PARA TRABAJAR JUTOS(AS)?</h2>
+                </div>
             </div>
                 <div className="container-inputs-form">
-                    <h2>¿LISTO(A) PARA TRABAJAR JUTOS(AS)?</h2>
                     <div className="row100">
                         <div className="col">
                             <div className="input-box">
@@ -45,7 +51,11 @@ function Contact ({setContact, setComeBack}){
                         </div>
                     </div>
                     <div className="row100">
-                        <div className="col">
+                        <div className="submit-container">
+                            <div className="container-buttons-red">
+                                <button className="linkedin-button"><img src={Linkedin}/></button>
+                                <button className="github-button"><img src={Github}/></button>
+                            </div>
                             <input type="submit" value="Enviar"></input>
                         </div>
                     </div>

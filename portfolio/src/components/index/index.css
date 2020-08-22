@@ -93,8 +93,11 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  position: absolute;
-  z-index: 6;
+  opacity: 0%;
+}
+
+.container-buttons:hover {
+        opacity: 100%;
 }
 
 .skills-button, .projects-button, .aboutme-button {

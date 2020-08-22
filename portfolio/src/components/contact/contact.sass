@@ -1,29 +1,45 @@
 .container-principal-contact
     height: 100vh
     display: flex
-    justify-content: center
-    align-items: center
     flex-wrap: wrap
+    justify-content: space-between
 
 .container-contact-left
-    width: 500px
+    width: 450px
+    display: flex
+    justify-content: flex-start
+    flex-direction: column
+    height: 500px
+
+.comeback-button
+    width: 0; 
+    height: 0; 
+    border-right: 25px solid #ffffff;
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+    background-color: transparent
+    border-left: none
+    position: absolute
+    z-index: 2
 
 .container-inputs-form
-    width: 80%
     padding: 20px
+    margin-top: 40px
+    margin-right: 35px
 
-.container-inputs-form h2
-    width: 100%
+.title-contact
     color: #ffffff
-    font-size: 36px
-    text-align: center
+    font-size: 40px
     margin-bottom: 10px
+    margin-top: 10px
+    margin-left: 30px
+
+.title-contact h2
+    font-weight: 900
 
 .container-inputs-form .row100
-    position: relative
-    width: 100%
-    display: grid
-    grid-template-columns: repeat(autofit, minmax(300px, 1fr))
+    display: flex
+    flex-direction: column
 
 .container-inputs-form .row100 .col
     position: relative
@@ -34,7 +50,7 @@
 
 .container-inputs-form .row100 .input-box
     position: relative
-    width: 100%
+    width: 80vh
     height: 40px
     color: #ffffff
 
@@ -85,7 +101,7 @@
 
 .container-inputs-form .row100 .input-box.textarea
     position: relative
-    width: 100%
+    width: 80vh
     height: 100px
     padding: 10px 0
 
@@ -114,10 +130,19 @@ input[type="submit"]
     font-family: 'Archivo Narrow', sans-serif;
     border-width: thin
     letter-spacing: 1px
-    margin-left: 565px
     margin-top: 35px
 
 input[type="submit"]:hover
     background-color: white
     color: black
     border: none
+
+.container-buttons-red
+    display: flex
+    align-items: flex-end
+    margin-top: 25px
+
+.submit-container
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between

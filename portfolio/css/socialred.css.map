@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AAAA,AAAA,oBAAoB,AAAC,CACjB,MAAM,CAAE,KAAK,CAAG",
+    "mappings": "AAAA,AAAA,oBAAoB,AAAC,CACjB,MAAM,CAAE,KAAK,CAAG,AAEpB,AAAA,gBAAgB,AAAC,CACb,KAAK,CAAE,CAAC,CACR,MAAM,CAAE,CAAC,CACT,YAAY,CAAE,kBAAkB,CAChC,UAAU,CAAE,sBAAsB,CAClC,aAAa,CAAE,sBAAsB,CACrC,gBAAgB,CAAE,WAAW,CAC7B,WAAW,CAAE,IAAI,CACjB,YAAY,CAAE,IAAI,CAAG",
     "sources": [
         "../src/components/projects/socialred.sass"
     ],
