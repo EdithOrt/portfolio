@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.34f3b968.chunk.css",
+    "main.js": "/static/js/main.9c25b945.chunk.js",
+    "main.js.map": "/static/js/main.9c25b945.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
+    "static/js/2.35e1bf58.chunk.js": "/static/js/2.35e1bf58.chunk.js",
+    "static/js/2.35e1bf58.chunk.js.map": "/static/js/2.35e1bf58.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.68ef2c7659459a5ce3349fe608ec9ef5.js": "/precache-manifest.68ef2c7659459a5ce3349fe608ec9ef5.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.34f3b968.chunk.css.map": "/static/css/main.34f3b968.chunk.css.map",
+    "static/js/2.35e1bf58.chunk.js.LICENSE.txt": "/static/js/2.35e1bf58.chunk.js.LICENSE.txt",
+    "static/media/EDITH-ORTIZ-CV.pdf": "/static/media/EDITH-ORTIZ-CV.dce302c3.pdf",
+    "static/media/edith.png": "/static/media/edith.a4a7dfcf.png",
+    "static/media/mockup-burgerqueen.png": "/static/media/mockup-burgerqueen.d5081029.png",
+    "static/media/mockup-secret-love.png": "/static/media/mockup-secret-love.d59fd570.png",
+    "static/media/tools.png": "/static/media/tools.3354b92c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.19ccc7f6.js",
+    "static/js/2.35e1bf58.chunk.js",
+    "static/css/main.34f3b968.chunk.css",
+    "static/js/main.9c25b945.chunk.js"
+  ]
+}
