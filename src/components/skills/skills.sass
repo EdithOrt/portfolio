@@ -1,16 +1,27 @@
 .skillsContainer
-    height: 100vh
-    display: flex
-    justify-content: space-between
-
-.textContainer 
     display: flex
     flex-direction: column
+
+.container-body
+    display: flex
+    flex-wrap: wrap
+    
+.principal-container-skills
+    display: flex
+    justify-content: space-between
+    width: 100vw
+    flex-wrap: wrap
+
+.principal-container-softskills
+    display: flex
+    justify-content: space-between
+    width: 100vw
+    flex-wrap: wrap
+
+.textContainer 
     font-size: 3.5em
     margin-top: 15px
     font-weight: 900
-    width: 500px
-    height: 450px
 
 .skills
     margin-top: -30px
@@ -20,13 +31,8 @@
     margin-top: 80px
     margin-left: 50px
 
-.buttonsContainer
-    margin-top: 70px
-    margin-right: 30px
+.buttonsSoftSkills
     width: 500px
-    height: 500px
-    display: flex
-    flex-direction: column
     button
         width: 170px
         height: 40px
@@ -43,5 +49,30 @@
 .buttonsSoftSkills
     margin-top: 30px
 
-.container-logos img
-    height: 51px
+.container-logos
+    width: 500px
+    margin-left: 20px
+    img
+        height: 51px
+
+@media screen and ( max-width: 940px ) 
+    .textContainer
+        font-size: 2em
+        .softSkills
+            margin-top: 20px
+
+    .buttonsSoftSkills
+        width: 300px
+        display: flex
+        flex-wrap: wrap
+        justify-content: center
+        margin-top: 5px
+        margin-bottom: 25px
+        button 
+            width: 120px
+
+    .container-buttons-softs
+        width: 350px
+        display: flex
+        justify-content: center
+    

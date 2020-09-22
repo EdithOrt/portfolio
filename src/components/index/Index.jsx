@@ -5,7 +5,9 @@ import './index.css'
 function Index ({setAboutMe, setSkills, setBurgerQueen}) {
     return (
         <div className="indexContent">
-            <img className="logo" alt="logo" src={logoEoc}/>
+            <div className="logo">
+                <img alt="logo" src={logoEoc}/>
+            </div>
             <div className="container-buttons">
                 <button  className="skills-button" onClick={() => setSkills(true)}>
                     SKILLS
