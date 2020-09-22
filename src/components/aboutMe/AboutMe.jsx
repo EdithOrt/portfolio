@@ -2,7 +2,7 @@ import React from 'react';
 import Edith from '../../assets/edith.png';
 import frontend from '../../assets/frontend.png';
 import developer from '../../assets/developer.png';
-import EdithOrtizCV from '../../assets/EDITH-ORTIZ-CV.pdf'
+import EdithOrtizCV from '../../assets/CV-Edith-Ortiz.pdf'
 import './aboutme.css'
 
 function AboutMe ({setComeBack, setAboutMe}) {

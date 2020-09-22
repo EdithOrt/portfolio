@@ -1,13 +1,11 @@
 .container-principal-contact {
-  height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  height: 100vh;
 }
 
 .container-contact-left {
@@ -40,7 +38,8 @@
 .container-inputs-form {
   padding: 20px;
   margin-top: 40px;
-  margin-right: 35px;
+  margin-right: 185px;
+  width: 400px;
 }
 
 .title-contact {
@@ -120,7 +119,7 @@
   position: absolute;
   bottom: 0;
   display: block;
-  width: 100%;
+  width: 400px;
   height: 2px;
   background: #ffffff;
   -webkit-transition: 0.5s;

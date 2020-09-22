@@ -5,7 +5,6 @@
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  margin-top: 35px;
   margin-right: 40px;
 }
 
@@ -13,6 +12,7 @@
   background-color: transparent;
   border: none;
   margin-right: 1px;
+  margin-top: 25px;
 }
 
 .contact-button {
@@ -27,6 +27,7 @@
   color: white;
   letter-spacing: 1px;
   margin-left: 10px;
+  margin-top: 25px;
 }
 
 .contact-button:hover {
