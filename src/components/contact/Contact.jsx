@@ -53,6 +53,9 @@ function Contact ({setContact, setComeBack}){
                     <h2>¿LISTO(A) PARA TRABAJAR JUTOS(AS)?</h2>
                 </div>
             </div>
+            <div>
+                
+            </div>
             <form onSubmit={handleSendToFirebase}>
                 <div className="container-inputs-form">
                         <div className="row100">
