@@ -22,48 +22,54 @@ import skill17 from '../../assets/skill17.png'
 function Skills ({setSkills, setComeBack}){
     return(
         <div className="skillsContainer">
-            <div className="container-leftskills">
-                <div className="container-button-comeback">
-                    <button className="comeBackButton" onClick= {() => {
-                        setComeBack(true)
-                        setSkills(false)
-                    }}></button>
-                </div>
-                <div className="textContainer">
-                    <p className="skills">SKILLS</p>
-                    <p className="softSkills">SOFTSKILLS</p>
-                </div>                
+            <div className="container-button-comeback">
+                <button className="comeBackButton" onClick= {() => {
+                    setComeBack(true)
+                    setSkills(false)
+                }}></button>
             </div>
-            <div className="buttonsContainer">
-                <div className="container-logos">
-                    <img src={skill}/>
-                    <img src={skill1}/>
-                    <img src={skill2}/>
-                    <img src={skill3}/>
-                    <img src={skill4}/>
-                    <img src={skill5}/>
-                    <img src={skill6}/>
-                    <img src={skill7}/>
-                    <img src={skill8}/>
-                    <img src={skill9}/>
-                    <img src={skill10}/>
-                    <img src={skill11}/>
-                    <img src={skill12}/>
-                    <img src={skill13}/>
-                    <img src={skill14}/>
-                    <img src={skill15}/>
-                    <img src={skill16}/>
-                    <img src={skill17}/>
+            <div className="container-body">
+                <div className="principal-container-skills">
+                    <div className="textContainer">
+                        <p className="skills">SKILLS</p>
+                    </div>
+                    <div className="container-logos">
+                        <img src={skill}/>
+                        <img src={skill1}/>
+                        <img src={skill2}/>
+                        <img src={skill3}/>
+                        <img src={skill4}/>
+                        <img src={skill5}/>
+                        <img src={skill6}/>
+                        <img src={skill7}/>
+                        <img src={skill8}/>
+                        <img src={skill9}/>
+                        <img src={skill10}/>
+                        <img src={skill11}/>
+                        <img src={skill12}/>
+                        <img src={skill13}/>
+                        <img src={skill14}/>
+                        <img src={skill15}/>
+                        <img src={skill16}/>
+                        <img src={skill17}/>
+                    </div>
                 </div>
-                <div className="buttonsSoftSkills">
-                    <button>Trabajo remoto</button>
-                    <button>Creatividad</button>
-                    <button>Perseverancia</button>
-                    <button>Metodologías ágiles</button>
-                    <button>Autoaprendizaje</button>
-                    <button>Autonomía</button>
-                    <button>Metódica</button>
-                </div>
+                <div className="principal-container-softskills">
+                    <div className="textContainer">
+                        <p className="softSkills">SOFTSKILLS</p>
+                    </div>
+                    <div className="container-buttons-softs">
+                        <div className="buttonsSoftSkills">
+                            <button>Trabajo remoto</button>
+                            <button>Creatividad</button>
+                            <button>Perseverancia</button>
+                            <button>Metodologías ágiles</button>
+                            <button>Autoaprendizaje</button>
+                            <button>Autonomía</button>
+                            <button>Metódica</button>
+                        </div>
+                    </div>      
+                </div>        
             </div>
         </div>
     )
