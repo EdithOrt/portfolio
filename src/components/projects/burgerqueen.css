@@ -1,11 +1,12 @@
 .container-bq {
-  height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .next-button {
@@ -20,12 +21,12 @@
 }
 
 .container-mockup {
-  width: 700px;
-  height: 500px;
+  width: 560px;
 }
 
 .img-app {
   height: 300px;
+  margin-left: 50px;
 }
 
 .container-button-comeback {
@@ -37,15 +38,6 @@
 .container-right {
   width: 400px;
   margin-right: 35px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-}
-
-.container-right-second {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -126,5 +118,25 @@
 
 .demo-button:hover {
   color: black;
+}
+
+@media screen and (max-width: 420px) {
+  .container-bq {
+    width: 100%;
+  }
+  .img-app {
+    display: none;
+  }
+  .container-right {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+  .container-button-comeback {
+    height: auto;
+    width: auto;
+  }
+  .container-mockup {
+    width: 300px;
+  }
 }
 /*# sourceMappingURL=burgerqueen.css.map */

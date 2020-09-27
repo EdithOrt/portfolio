@@ -15,7 +15,6 @@ function BurgerQueen ({setComeBack, setBurgerQueen, setRedSocial}){
                 <img className="img-app" src={burgerqueen} alt="img"/>
             </div>
             <div className="container-right">
-                <div className="container-right-second">
                     <div className="container-description">
                         <div className="content-title">
                             <h2 className="title1">ROCKY</h2>
@@ -40,7 +39,6 @@ function BurgerQueen ({setComeBack, setBurgerQueen, setRedSocial}){
                         setRedSocial(true)
                     }}></button>
                 </div> 
-                </div>   
             </div>
         </div>
     )

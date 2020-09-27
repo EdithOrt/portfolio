@@ -6,6 +6,8 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .container-body {
@@ -120,6 +122,9 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+  .skills {
+    margin-top: 0px;
   }
 }
 /*# sourceMappingURL=skills.css.map */
