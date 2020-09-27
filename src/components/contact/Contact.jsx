@@ -56,8 +56,8 @@ function Contact ({setContact, setComeBack}){
             <div>
                 
             </div>
-            <form onSubmit={handleSendToFirebase}>
-                <div className="container-inputs-form">
+            <div className="container-inputs-form">
+                <form onSubmit={handleSendToFirebase}>
                         <div className="row100">
                             <div className="col">
                                 <div className="input-box">
@@ -99,8 +99,8 @@ function Contact ({setContact, setComeBack}){
                                 <input type="submit" value="Enviar"></input>
                             </div>
                         </div>
-                    </div>                               
-                </form>
+                    </form>
+                </div>                               
             </div>
     )
 }

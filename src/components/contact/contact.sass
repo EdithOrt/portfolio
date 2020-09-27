@@ -1,7 +1,6 @@
 .container-principal-contact
     display: flex
     justify-content: space-between
-    height: 100vh
 
 .container-contact-left
     width: 450px
@@ -146,3 +145,33 @@ input[type="submit"]:hover
     display: flex
     flex-wrap: wrap
     justify-content: space-between
+
+@media screen and ( max-width: 420px )
+    
+    .container-principal-contact
+        flex-wrap: wrap
+
+    .title-contact
+        font-size: 15px
+
+    .container-contact-left
+        height: 200px
+
+    .container-inputs-form
+        margin-top: -40px
+
+    .container-inputs-form .row100 .input-box .line
+        width: 290px
+
+    .container-inputs-form .row100 .input-box
+        width: 290px
+
+    .container-inputs-form .row100 .input-box.textarea textarea
+        width: 290px
+
+    .container-inputs-form .row100 .input-box.textarea
+        width: 290px
+
+    .submit-container
+        flex-wrap: nowrap
+        align-items: center
