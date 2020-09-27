@@ -5,7 +5,6 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  height: 100vh;
 }
 
 .container-contact-left {
@@ -196,5 +195,40 @@ input[type="submit"]:hover {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+@media screen and (max-width: 420px) {
+  .container-principal-contact {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .title-contact {
+    font-size: 15px;
+  }
+  .container-contact-left {
+    height: 200px;
+  }
+  .container-inputs-form {
+    margin-top: -40px;
+  }
+  .container-inputs-form .row100 .input-box .line {
+    width: 290px;
+  }
+  .container-inputs-form .row100 .input-box {
+    width: 290px;
+  }
+  .container-inputs-form .row100 .input-box.textarea textarea {
+    width: 290px;
+  }
+  .container-inputs-form .row100 .input-box.textarea {
+    width: 290px;
+  }
+  .submit-container {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
 /*# sourceMappingURL=contact.css.map */
