@@ -1,8 +1,8 @@
 import React from 'react'
 import './socialred.css'
-import secretlove from '../../assets/mockup-secret-love.png'
+import secretlove from '../../assets/secret-love.png'
 
-function SocialRed ({setRedSocial, setBurgerQueen, setComeBack}){
+function SocialRed ({setRedSocial, setTalentFest, setComeBack}){
     return(
         <div className="container-bq">
             <div className="container-mockup">
@@ -38,7 +38,7 @@ function SocialRed ({setRedSocial, setBurgerQueen, setComeBack}){
                     <div className="container-button-bq">
                         <button className="previous-button" onClick={() => {
                             setRedSocial(false)
-                            setBurgerQueen(true)
+                            setTalentFest(true)
                         }}></button>
                         {/* <button className="next-button" onClick={() => {
                             setRedSocial(false)

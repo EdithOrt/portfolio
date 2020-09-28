@@ -1,8 +1,8 @@
 import React from 'react'
 import './burgerqueen.css'
-import burgerqueen from '../../assets/mockup-burgerqueen.png'
+import burger from '../../assets/burger.png'
 
-function BurgerQueen ({setComeBack, setBurgerQueen, setRedSocial}){
+function BurgerQueen ({setComeBack, setBurgerQueen, setTalentFest}){
     return(
         <div className="container-bq">
             <div className="container-mockup">
@@ -12,7 +12,7 @@ function BurgerQueen ({setComeBack, setBurgerQueen, setRedSocial}){
                         setBurgerQueen(false)
                     }}></button>
                 </div>
-                <img className="img-app" src={burgerqueen} alt="img"/>
+                <img className="img-app" src={burger} alt="img"/>
             </div>
             <div className="container-right">
                     <div className="container-description">
@@ -36,7 +36,7 @@ function BurgerQueen ({setComeBack, setBurgerQueen, setRedSocial}){
                     <div className="container-button-bq">
                     <button className="next-button" onClick={() => {
                         setBurgerQueen(false)
-                        setRedSocial(true)
+                        setTalentFest(true)
                     }}></button>
                 </div> 
             </div>

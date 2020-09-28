@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,mBAAmB,CAAC;EAChB,MAAM,EAAE,KAAK;EACb,WAAW,EAAE,KAAK;CAAG;;AAEzB,AAAA,KAAK,CAAC;EACF,KAAK,EAAE,OAAO;EACd,eAAe,EAAE,IAAI;EACrB,MAAM,EAAE,OAAO;EACf,WAAW,EAAE,GAAG;CAAG",
+    "sources": [
+        "talent-fest.sass"
+    ],
+    "names": [],
+    "file": "talent-fest.css"
+}

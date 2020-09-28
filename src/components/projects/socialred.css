@@ -14,7 +14,8 @@
 }
 
 .secret-love-img {
-  width: 500px;
+  width: 100%;
+  margin-left: 40px;
 }
 
 @media screen and (max-width: 420px) {
