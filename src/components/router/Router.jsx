@@ -6,6 +6,7 @@ import SocialRed from '../projects/SocialRed';
 import BurgerQueen from '../projects/BurgerQueen';
 import Skills from '../skills/Skills';
 import Navigation from '../navigation/Navigation';
+import TalentFest from '../projects/TalentFest'
 
 function Router (){
     const [navigateState, setNavigate] = useState(true);
@@ -16,11 +17,12 @@ function Router (){
     const [comeBack, setComeBack] = useState(false);
     const [burgerQueen, setBurgerQueen] = useState(false);
     const [redSocial, setRedSocial] = useState(false);
+    const [talentFest, setTalentFest] = useState(false)
 
     return (
         <div>
             <div>
-                {(navigateState && !contact && !aboutMe && !skillState && !burgerQueen && !redSocial)  && 
+                {(navigateState && !contact && !aboutMe && !skillState && !burgerQueen && !redSocial && !talentFest)  && 
                     <Navigation
                         setContact = {setContact}
                     />
@@ -33,7 +35,7 @@ function Router (){
                 }
             </div>
             <div>
-                {(indexState && !aboutMe && !skillState && !burgerQueen && !contact && !redSocial) && 
+                {(indexState && !aboutMe && !skillState && !burgerQueen && !contact && !redSocial && !talentFest) && 
                     <Index
                         setAboutMe = {setAboutMe}
                         setSkills = {setSkills}
@@ -54,13 +56,20 @@ function Router (){
                 <BurgerQueen
                 setComeBack = {setComeBack}
                 setBurgerQueen = {setBurgerQueen}
-                setRedSocial = {setRedSocial}
+                setTalentFest = {setTalentFest}
                 />}
                 {redSocial &&
                 <SocialRed
                 setComeBack = {setComeBack}
                 setRedSocial = {setRedSocial}
+                setTalentFest = {setTalentFest}
+                />}
+                {talentFest &&
+                <TalentFest 
                 setBurgerQueen = {setBurgerQueen}
+                setComeBack = {setComeBack}
+                setRedSocial = {setRedSocial}
+                setTalentFest = {setTalentFest}
                 />}
             </div>
             <div>
